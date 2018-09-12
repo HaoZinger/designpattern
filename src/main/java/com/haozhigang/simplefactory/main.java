@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
  * 2018年09月13日01:09
  */
 public class main {
+
     private static Logger logger = LoggerFactory.getLogger(main.class);
 
     public static void main(String[] args) {
