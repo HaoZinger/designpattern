@@ -22,7 +22,7 @@
     <!-- 文件滚动策略根据%d{patter}中的“patter”而定，此处为每天产生一个文件 -->
     <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
       <!-- 归档文件名“.zip或.gz结尾”,表示归档文件自动压缩 -->
-      <FileNamePattern>logs/my_log%d{yyyyMMdd}.log.zip</FileNamePattern>
+      <FileNamePattern>logs/my_log%d{yyyyMMdd}.log</FileNamePattern>
       <maxHistory>30</maxHistory>
     </rollingPolicy>
 
@@ -53,7 +53,7 @@
 
   <!-- 日志级别若没显示定义，则继承最近的父logger（该logger需显示定义level,直到rootLogger）的日志级别-->
   <!-- logger的appender默认具有累加性（默认日志输出到当前logger的appender和所有祖先logger的appender中），可通过配置 “additivity”属性修改默认行为-->
-  <logger name="com.yinz" level="debug" additivity="false">
+  <logger name="com.haozhigang.*" level="debug" additivity="false">
     <appender-ref ref="FILE" />
   </logger>
 
