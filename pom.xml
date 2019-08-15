@@ -13,14 +13,15 @@
     <module>ObserverPattern</module>
     <module>abstractfactory</module>
     <module>sedemo</module>
-      <module>javase</module>
-      <module>responsePattern</module>
+    <module>javase</module>
     <module>responsePattern</module>
-      <module>strategyPattern</module>
-      <module>decoratorPattern</module>
-      <module>brigePattern</module>
-      <module>bridgePattern</module>
-      <module>adapterPattern</module>
+    <module>demo</module>
+    <module>muticase</module>
+    <module>strategyPattern</module>
+    <module>decoratorPattern</module>
+    <module>brigePattern</module>
+    <module>bridgePattern</module>
+    <module>adapterPattern</module>
     <module>swing</module>
   </modules>
 
